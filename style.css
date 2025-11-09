@@ -1,0 +1,497 @@
+body{
+    background-color: black;
+    margin: 0;
+}
+header{
+    position: sticky;
+    top: 0%;
+    display: flex;
+    border: 2px solid black;
+    gap: 50px;
+    align-items: center;
+    background-color: rgb(122, 67, 176);
+    justify-content: space-between;
+    height: 40%;
+
+}
+
+.logo{
+ display:flex;
+ gap: 10px;
+ padding: auto;
+ margin-left: 30px;
+}
+.logo>img{
+    border-radius: 50;
+    width: 120px;
+    height: 100px;
+    
+}
+
+.search >#sr {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 20px;
+  outline: none;
+  width: 620px;
+}
+
+.search{
+    display: flex;
+
+}
+.search >#go{
+    padding: 8px 12px;
+    border: none;
+    border-radius: 18px;
+    outline: none;
+    width: auto;
+}
+
+
+.nav2{
+    display: flex;
+    gap: 20px;
+    font-size: xx-large;
+}
+
+.main-content{
+    display: flex;
+}
+ .sidebar {
+      position: fixed;
+  
+      left: 0;
+      height: 100vh;
+      width: 34px;
+      background-color: rgba(0, 0, 0, 0);
+      color: white;
+      overflow-x: hidden;
+      transition: width 0.4s ease;
+      padding-top: 20px;
+      justify-content: center;
+    }
+
+    .sidebar:hover {
+      width: 110px; 
+      
+    }
+
+    .sidebar ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .sidebar li {
+      padding: 10px 15px;
+      cursor:pointer ;
+      white-space: nowrap; 
+      row-gap: 20px;
+    }
+
+    .sidebar li:hover {
+      background-color: #380546;
+    }
+    .home{
+        display: flex;
+        justify-content: center;
+        color: crimson;
+        text-align: center;
+
+    }
+    
+
+    .home>video{
+        padding: 50px
+        
+    }
+    .gen{
+        display: grid;
+        grid-template-columns: repeat(3,24fr) ;
+        grid-row: 2;
+        align-content: center;
+        justify-content: center;
+        gap: 10px;
+        padding-bottom: 30px ;
+        padding-left: 190px;
+        
+        
+    }
+    .card {
+        background-color: rgb(184, 112, 223);
+        color: white;
+        padding: 30px;
+        border: 2px solid black;
+       width:200px;
+       height:350px;
+       text-align: center;
+       align-content: center;
+       font-size: xx-large;
+      }
+      
+    
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(255, 0, 150, 0.6);
+  background-color: rgb(160, 70, 210);
+}
+.card1:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(255, 0, 150, 0.6);
+  background-color: rgb(160, 70, 210);
+}
+.card2:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(255, 0, 150, 0.6);
+  background-color: rgb(160, 70, 210);
+}
+.card3:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(255, 0, 150, 0.6);
+  background-color: rgb(160, 70, 210);
+}
+.card4:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(255, 0, 150, 0.6);
+  background-color: rgb(160, 70, 210);
+}
+.card5:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(255, 0, 150, 0.6);
+  background-color: rgb(160, 70, 210);
+}.card6:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(255, 0, 150, 0.6);
+  background-color: rgb(160, 70, 210);
+}.card7:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(255, 0, 150, 0.6);
+  background-color: rgb(160, 70, 210);
+}.card8:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(255, 0, 150, 0.6);
+  background-color: rgb(160, 70, 210);
+}.card9:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(255, 0, 150, 0.6);
+  background-color: rgb(160, 70, 210);
+}.card10:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(255, 0, 150, 0.6);
+  background-color: rgb(160, 70, 210);
+}.card11:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(255, 0, 150, 0.6);
+  background-color: rgb(160, 70, 210);
+}.card12:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(255, 0, 150, 0.6);
+  background-color: rgb(160, 70, 210);
+}.card13:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(255, 0, 150, 0.6);
+  background-color: rgb(160, 70, 210);
+}.card14:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(255, 0, 150, 0.6);
+  background-color: rgb(160, 70, 210);
+}.card15:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(255, 0, 150, 0.6);
+  background-color: rgb(160, 70, 210);
+}.card16:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(255, 0, 150, 0.6);
+  background-color: rgb(160, 70, 210);
+}.card17:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(255, 0, 150, 0.6);
+  background-color: rgb(160, 70, 210);
+}.card18:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(255, 0, 150, 0.6);
+  background-color: rgb(160, 70, 210);
+}.card19:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(255, 0, 150, 0.6);
+  background-color: rgb(160, 70, 210);
+}.card20:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(255, 0, 150, 0.6);
+  background-color: rgb(160, 70, 210);
+}.card21:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(255, 0, 150, 0.6);
+  background-color: rgb(160, 70, 210);
+}.card22:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(255, 0, 150, 0.6);
+  background-color: rgb(160, 70, 210);
+}.card23:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(255, 0, 150, 0.6);
+  background-color: rgb(160, 70, 210);
+}.card24:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(255, 0, 150, 0.6);
+  background-color: rgb(160, 70, 210);
+}
+
+
+      
+      .genre{
+        align-content: center;
+        justify-content: center;
+        border-top: 2px solid rgb(122, 6, 6);
+        border-bottom: 2px solid rgb(122, 6, 6) ;
+        
+    }
+    .card1{
+        background-image: url(onepiece.jpg);
+        background-size: cover;
+        background-position: center;
+        color: white;
+        padding: 30px;
+        border: 2px solid black;
+       width:200px;
+       height:350px;
+      }
+      .card2{
+        background-image: url(images/naruto.jpg);
+        background-size: cover;
+        background-position: center;
+        color: white;
+        padding: 30px;
+        border: 2px solid black;
+       width:200px;
+       height:350px;
+      }
+      .card3{
+        background-image: url(images/dragon-1.jpg);
+        background-size: cover;
+        background-position: center;
+        color: white;
+        padding: 30px;
+        border: 2px solid black;
+       width:200px;
+       height:350px;
+      }
+
+      .card4{
+        background-image: url(images/opm-1.jpg);
+        background-size: cover;
+        background-position: center;
+        color: white;
+        padding: 30px;
+        border: 2px solid black;
+       width:200px;
+       height:350px;
+      }
+
+      .card5{
+        background-image: url(images/aot-1.jpg);
+        background-size: cover;
+        background-position: center;
+        color: white;
+        padding: 30px;
+        border: 2px solid black;
+       width:200px;
+       height:350px;
+      }
+      .card6{
+        background-image: url(images/bleach-1.jpg);
+        background-size: cover;
+        background-position: center;
+        color: white;
+        padding: 30px;
+        border: 2px solid black;
+       width:200px;
+       height:350px;
+      }
+      .card7{
+        background-image: url(images/demon-1.jpg);
+        background-size: cover;
+        background-position: center;
+        color: white;
+        padding: 30px;
+        border: 2px solid black;
+       width:200px;
+       height:350px;
+      }
+      .card8{
+        background-image: url(images/juju-1.jpg);
+        background-size: cover;
+        background-position: center;
+        color: white;
+        padding: 30px;
+        border: 2px solid black;
+       width:200px;
+       height:350px;
+      }
+      .card9{
+        background-image: url(images/clover-1.jpg);
+        background-size: cover;
+        background-position: center;
+        color: white;
+        padding: 30px;
+        border: 2px solid black;
+       width:200px;
+       height:350px;
+      }
+      .card10{
+        background-image: url(images/saiki.jpg);
+        background-size: cover;
+        background-position: center;
+        color: white;
+        padding: 30px;
+        border: 2px solid black;
+       width:200px;
+       height:350px;
+      }
+      .card11{
+        background-image: url(images/gintama.jpg);
+        background-size: cover;
+        background-position: center;
+        color: white;
+        padding: 30px;
+        border: 2px solid black;
+       width:200px;
+       height:350px;
+      }
+      .card12{
+        background-image: url(images/ranma.jpg);
+        background-size: cover;
+        background-position: center;
+        color: white;
+        padding: 30px;
+        border: 2px solid black;
+       width:200px;
+       height:350px;
+      }
+      .card13{
+        background-image: url(images/hiromiya.jpg);
+        background-size: cover;
+        background-position: center;
+        color: white;
+        padding: 30px;
+        border: 2px solid black;
+       width:200px;
+       height:350px;
+      }
+      .card14{
+        background-image: url(images/love\ is\ war.jpg);
+        background-size: cover;
+        background-position: center;
+        color: white;
+        padding: 30px;
+        border: 2px solid black;
+       width:200px;
+       height:350px;
+      }
+      .card15{
+        background-image: url(images/hyouka.jpg);
+        background-size: cover;
+        background-position: center;
+        color: white;
+        padding: 30px;
+        border: 2px solid black;
+       width:200px;
+       height:350px;
+      }
+      .card16{
+        background-image: url(images/re:zero.jpg);
+        background-size: cover;
+        background-position: center;
+        color: white;
+        padding: 30px;
+        border: 2px solid black;
+       width:200px;
+       height:350px;
+      }
+      .card17{
+        background-image: url(images/mushoku.jpg);
+        background-size: cover;
+        background-position: center;
+        color: white;
+        padding: 30px;
+        border: 2px solid black;
+       width:200px;
+       height:350px;
+      }
+
+      .card18{
+        background-image: url(images/slime.jpg);
+        background-size: cover;
+        background-position: center;
+        color: white;
+        padding: 30px;
+        border: 2px solid black;
+       width:200px;
+       height:350px;
+      }
+
+      .card19{
+        background-image: url(images/maid-1.jpg);
+        background-size: cover;
+        background-position: center;
+        color: white;
+        padding: 30px;
+        border: 2px solid black;
+       width:200px;
+       height:350px;
+      }
+      .card20{
+        background-image: url(images/school-babysitters-1-190x285.jpg);
+        background-size: cover;
+        background-position: center;
+        color: white;
+        padding: 30px;
+        border: 2px solid black;
+       width:200px;
+       height:350px;
+      }
+      .card21{
+        background-image: url(images/beelzb.jpg);
+        background-size: cover;
+        background-position: center;
+        color: white;
+        padding: 30px;
+        border: 2px solid black;
+       width:200px;
+       height:350px;
+      }
+      .card22{
+        background-image: url(images/haikyu.jpg);
+        background-size: cover;
+        background-position: center;
+        color: white;
+        padding: 30px;
+        border: 2px solid black;
+       width:200px;
+       height:350px;
+      }
+      .card23{
+        background-image: url(images/basket.jpg);
+        background-size: cover;
+        background-position: center;
+        color: white;
+        padding: 30px;
+        border: 2px solid black;
+       width:200px;
+       height:350px;
+      }
+      .card24{
+        background-image: url(images/blue.jpg);
+        background-size: cover;
+        background-position: center;
+        color: white;
+        padding: 30px;
+        border: 2px solid black;
+       width:200px;
+       height:350px;
+      }
+    footer{
+        color: rgb(55, 71, 85);
+        font-size: xx-large;
+    }
